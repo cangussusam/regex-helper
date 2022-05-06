@@ -1,0 +1,124 @@
+body{
+    font-family: 'Arvo', serif;
+    background-color: #D94E4E;
+    background-image: url("https://www.transparenttextures.com/patterns/absurdity.png");
+}
+
+.header{
+    background: #A62E2E;
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
+}
+
+.header__title{
+    font-size: 2rem;
+    color: #D9B6A3;
+    margin-left: 3rem;
+    padding: 1rem;
+}
+
+
+.info.container{
+    text-align: center;
+}
+
+.info__span{
+    font-size: 1.35rem;
+}
+
+.info__regex{
+    display: inline-flex;
+    background: #fdfdfd;
+    border: 1px solid black;
+    align-items: center;
+    padding: 0 0.5rem;
+    margin: 3rem;
+}
+
+.info__input{
+    border-style: none;
+    resize: none;
+    outline-style: none;
+    font-size: 1.15rem;
+}
+
+.info__paragraph{
+    color: #D9B6A3;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1.5rem;
+}
+
+.p__change{
+    margin-bottom: 0;
+}
+
+.info__regex-data{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info__functions{
+    font-size: 1.25rem;
+    color: #A62E2E;
+    margin-right: 5rem;
+}
+
+.functions__selected{
+    background: #A62E2E;
+    color: #D9B6A3
+}
+
+.info__submit{
+    text-align: center;
+    margin-top: 6.45rem;
+}
+
+.info__button{
+    background: #A62E2E;
+    color: #D9B6A3;
+    padding: 0.5rem;
+}
+
+.btn__change{
+    margin-top: 0;    
+}
+
+.entry__div{
+    text-align: center;
+    margin: 2rem;
+}
+
+.entry__paragraph{
+    color: #D9B6A3;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1.5rem
+}
+
+.res{
+    text-align: center;
+    word-break: break-all;
+}
+
+.res__function{
+    margin: 5rem;
+    margin-bottom: 1rem;
+}
+
+.res__entry{
+    background: #fdfdfd;
+    padding: 0.5rem;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 0 22.5% 5rem 22.5%;
+
+}
+
+.p__functions{
+    font-weight: 700;
+    color: #A62E2E;
+}
+
+.display{
+    display: none;
+}

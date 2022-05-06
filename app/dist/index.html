@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regex Helper</title>
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/dropdown.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo:regular,italic,700,700italic" rel="stylesheet" />
+
+</head>
+<body>
+
+    <header class="header">
+        <h1 class="header__title">Regex Helper</h1>
+    </header>
+
+    <main>
+
+        <section class="info">
+            <div class="info container">
+              
+                <div class="info__regex">
+                    <span class="info__span">/</span>
+                    <textarea name="" id="regex" cols="80" rows="1" class="info__input"></textarea>
+                    <span class="info__span">/</span>
+                </div>
+
+                <p class="info__paragraph"></p>
+            </div>
+
+            <div class="info__regex-data">
+                <div class="info__flags" id="list__flags">
+                    <span class="list__span">Flags</span>
+                    <ul class="info__items">
+                        <li><input class="info__checked" value="g" type="checkbox" id="global">Global / -g</li>
+                        <li><input class="info__checked" value="i" type="checkbox" id="case__insensitive">Case insensitve / -i</li>
+                        <li><input class="info__checked" value="m" type="checkbox" id="multiline">Multiline / -m</li>
+                        <li><input class="info__checked" value="y" type="checkbox" id="sticky">Sticky / -y</li>
+                    </ul>
+                </div>
+
+                <div class="info__functions">
+                    <label for="list__functions" class="info__label">Functions:</label>
+                    <select name="functions" id="list__functions" class="info__functions">
+                        <option class="functions__selected" id="test">Test</option>
+                        <option class="functions__selected" id="search">Search</option>
+                        <option class="functions__selected" id="match" selected>Match</option>
+                    </select>
+                </div>
+                
+            </div>
+
+            <div class="info__submit">
+                <button class="info__button">Set configurations</button>
+            </div>
+
+        </section>
+
+        <section class="entry">
+            <div class="entry__div">
+                <textarea id="entry" cols="100" rows="10" class="entry__input" contenteditable="true"></textarea>
+                <p class="entry__paragraph"></p>
+            </div>
+        </section>
+
+        <section class="res">
+            <p class="res__function"></p>
+            <p class="res__entry display"></p>
+        </section>
+
+
+    </main>
+
+    <script src="js/app.js" type="module"></script>
+
+</body>
+</html>
